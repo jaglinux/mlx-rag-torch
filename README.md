@@ -1,3 +1,3 @@
-# mlx-rag-torch
+# pytorch-rag-torch
 
 Thanks to https://github.com/vegaluisjose/mlx-rag
