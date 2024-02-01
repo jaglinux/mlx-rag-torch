@@ -15,6 +15,7 @@ class Embedding_Model():
     
     def create_embeddings(self, input_texts):
         # Tokenize the input texts
+        mps_device = torch.device("mps")
         batch_dict = self.tokenizer(input_texts, max_length=512, 
                                     padding=True, truncation=True, return_tensors='pt')
 
